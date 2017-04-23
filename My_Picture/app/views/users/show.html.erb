@@ -1,44 +1,44 @@
-<p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Username:</strong>
-  <%= @user.username %>
-</p>
+<div class="container">
+<div class="row">
+  <div class="col-lg-4">
+    <img src="<%= @user.avatar %>" class="img-rounded" alt="Cinque Terre" style="width:100%; margin-top: 15px;">
+  </div>
+  <div class="col-lg-8">
+    <div class="alert alert-info" style="width:50%">
+      <strong>Username:</strong>
+      <%= @user.username %>
+    </div>
+    <div class="alert alert-info" style="width:50%">
+      <strong>Name:</strong>
+      <%= @user.fullname %>
+    </div>
+    <div class="alert alert-info" style="width:50%">
+      <strong>:</strong>
+            <%= f.select(:kind_of_user, options_for_select([['female', 2], ['male', 1]]), {}, {class: "form-control", :style => 'width: 70%; height:40px'}) %>
+    </div>
 
-<p>
-  <strong>Fullname:</strong>
-  <%= @user.fullname %>
-</p>
 
-<p>
-  <strong>Email:</strong>
-  <%= @user.email %>
-</p>
-
-<p>
-  <strong>Sex:</strong>
-  <%= @user.sex %>
-</p>
-
-<p>
-  <strong>Avatar:</strong>
-  <%= @user.avatar %>
-</p>
-
-<p>
-  <strong>Birthday:</strong>
-  <%= @user.birthday %>
-</p>
-
-<p>
-  <strong>Address:</strong>
-  <%= @user.address %>
-</p>
-
-<p>
-  <strong>Password digest:</strong>
-  <%= @user.password_digest %>
-</p>
-
-<%= link_to 'Edit', edit_user_path(@user) %> |
-<%= link_to 'Back', users_path %>
+    <div class="alert alert-info" style="width:50%">
+      <strong>Birth:</strong>
+      <div>
+        <%= date_select :user, :birthday, :start_year => 1980, :prompt => { :day => 'Day', :month => 'Month', :year => 'Year' } , :style => 'width: 70%; height:40px'%>
+      </div>
+    </div>
+    <div class="alert alert-info" style="width:50%">
+      <strong>From:</strong>
+      <%= @user.address %>
+    </div>
+    <div class="alert alert-info" style="width:50%">
+      <strong>Work at:</strong>
+      <%= @user.email %>
+    </div>
+  </div>
+</div>
+<br>
+<div class="text-xs-right">
+  <a href="/" class="btn btn-info">Back</a>
+  <%= link_to 'Edit', edit_user_path(@user), :class => 'btn btn-success' %>
+  <%= link_to 'Friend', friends_path, :class => 'btn btn-primary' %>
+</div>
+</div>
