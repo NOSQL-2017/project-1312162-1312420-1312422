@@ -15,15 +15,11 @@
     </div>
     <div class="alert alert-info" style="width:50%">
       <strong>Gender:</strong>
-            <%= f.select(:kind_of_user, options_for_select([['female', 2], ['male', 1]]), {}, {class: "form-control", :style => 'width: 70%; height:40px'}) %>
+      <%= @user.sex = 1? "male": "female" %>
     </div>
-
-
     <div class="alert alert-info" style="width:50%">
       <strong>Birth:</strong>
-      <div>
-        <%= date_select :user, :birthday, :start_year => 1980, :prompt => { :day => 'Day', :month => 'Month', :year => 'Year' } , :style => 'width: 70%; height:40px'%>
-      </div>
+      <%= @user.birthday %>
     </div>
     <div class="alert alert-info" style="width:50%">
       <strong>From:</strong>
@@ -39,6 +35,5 @@
 <div class="text-xs-right">
   <a href="/" class="btn btn-info">Back</a>
   <%= link_to 'Edit', edit_user_path(@user), :class => 'btn btn-success' %>
-  <%= link_to 'Friend', friends_path, :class => 'btn btn-primary' %>
 </div>
 </div>
