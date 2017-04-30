@@ -26,13 +26,13 @@
     <div class="col-lg-6">
 
       <h5>Gender</h5>
-      <%= f.select(:sex, options_for_select([['female', 2], ['male', 1]]), {}, {class: "form-control", :style => 'width: 70%; height:40px'}) %>
+      <%= f.select(:gender, options_for_select([['female', 2], ['male', 1]]), {}, {class: "form-control", :style => 'width: 70%; height:40px'}) %>
 
       <h5>Address: </h5>
       <%= f.text_field :address, :class => 'form-group', :style => 'width: 70%; height:40px'%>
 
       <h5>Avatar</h5>
-      <%= f.text_field :avatar, :class => 'form-group', :style => 'width: 70%; height:40px'%>
+      <%= f.file_field :avatar, :class => 'form-group', :style => 'width: 70%; height:40px'%>
 
       <h5>Email</h5>
       <%= f.text_field :email, :class => 'form-group', :style => 'width: 70%; height:40px'%>

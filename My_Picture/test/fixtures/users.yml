@@ -4,18 +4,18 @@ one:
   username: MyString
   fullname: MyString
   email: MyString
-  sex: 1
+  gender: 1
   avatar: MyString
-  birthday: 2017-04-16
+  birthday: 2017-04-30
   address: MyText
-  password_digest: MyString
+  password_digest: <%= BCrypt::Password.create('secret') %>
 
 two:
   username: MyString
   fullname: MyString
   email: MyString
-  sex: 1
+  gender: 1
   avatar: MyString
-  birthday: 2017-04-16
+  birthday: 2017-04-30
   address: MyText
-  password_digest: MyString
+  password_digest: <%= BCrypt::Password.create('secret') %>

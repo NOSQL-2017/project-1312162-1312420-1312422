@@ -2,7 +2,7 @@
 <div class="container">
 <div class="row">
   <div class="col-lg-4">
-    <img src="<%= @user.avatar %>" class="img-rounded" alt="Cinque Terre" style="width:100%; margin-top: 15px;">
+    <%= image_tag @user.avatar.url if @user.avatar_filename?%>
   </div>
   <div class="col-lg-8">
     <div class="alert alert-info" style="width:50%">
@@ -15,7 +15,7 @@
     </div>
     <div class="alert alert-info" style="width:50%">
       <strong>Gender:</strong>
-      <%= @user.sex = 1? "male": "female" %>
+      <%= @user.gender = 1? "male": "female" %>
     </div>
     <div class="alert alert-info" style="width:50%">
       <strong>Birth:</strong>
