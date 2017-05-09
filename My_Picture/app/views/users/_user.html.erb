@@ -1,7 +1,7 @@
 <div class="row card" style="margin-left: 150px; margin-right: 150px;">
   <div class="container" style="margin-bottom: -10px; padding-top: 25px;">
       <div class="col-sm-1">
-        <div class="text-xs-center"><img src="<%= user.avatar%>" class="img-circle" width="50" height="50"></div>
+        <div class="text-xs-center"><%= image_tag "/users/#{@user.id}/avatar/#{@user.avatar_filename}", :size => "260x180", :class => "img-circle",if @user.avatar_filename? %></div>
       </div>
       <div class="col-sm-11">
         <div ><%= user.Username %></div>
