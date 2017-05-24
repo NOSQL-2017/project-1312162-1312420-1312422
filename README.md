@@ -3,7 +3,7 @@
 **Name of your app** là repository cho đồ án nhóm. Nhóm tối đa 4 thành viên.
 
 Thành viên:
-* [ ] **MSSV1** - Tên sinh viên 1 - tên tài khoản github - email - Tỉ lệ đóng góp cho đề tài
+* [x] **132162** - Phạm Văn Hà - HaPham1107 - pvha1107@gmail.com - Tỉ lệ đóng góp cho đề tài
 * [ ] **MSSV2** - Tên sinh viên 2 - tên tài khoản github - email - Tỉ lệ đóng góp cho đề tài
 * [ ] **MSSV3** - Tên sinh viên 3 - tên tài khoản github - email - Tỉ lệ đóng góp cho đề tài
 * [ ] **MSSV4** - Tên sinh viên 4 - tên tài khoản github - email - Tỉ lệ đóng góp cho đề tài
@@ -16,7 +16,7 @@ Báo cáo: **URL Github Page của đề tài**
 Trong đề tài, sinh viên cần mô tả các chức năng có thể thực hiện bên dưới. Sinh viên check vào các mục bên dưới và ghi mã sinh viên đã làm vào chức năng theo mẫu. Mục nào ko có MSSV là tính điểm theo nhóm. Cần sắp xếp các chức năng bên dưới theo thứ tự MSSV đã thực hiện.
 
 Yêu cầu **GIT**
-* [ ] Có sử dụng GIT.
+* [x] Có sử dụng GIT.
 * [ ] Sử dụng GIT theo Centralized Workflow.
 * [ ] Sử dụng GIT theo Feature Branch Workflow.
 * [ ] Sử dụng GIT theo Gitflow Workflow.
@@ -28,16 +28,16 @@ Sau khi thực hiện xong giai đoạn 1, sinh viên sẽ được cung cấp m
 
 ## Lập trình server
 ### MVC
-* [ ] MVC (MSSV1)
-* [ ] Config (MSSV1)
-* [ ] REST routing (MSSV1)
-* [ ] Layout & partial (MSSV1)
+* [x] MVC (1312162)
+* [ ] Config (1312162)
+* [ ] REST routing (1312162)
+* [ ] Layout & partial (1312162)
 
 ### Lập trình dữ liệu
-* [ ] Thêm (MSSV1)
-* [ ] Xóa (MSSV1)
-* [ ] Sửa (MSSV1)
-* [ ] Tìm kiếm (MSSV1)
+* [x] Thêm (1312162)
+* [x] Xóa (1312162)
+* [x] Sửa (1312162)
+* [ ] Tìm kiếm (1312162)
 
 ### Xử lý lỗi
 * [ ] Xử lý lỗi trong cùng trang web (MSSV1)
@@ -48,7 +48,7 @@ Sau khi thực hiện xong giai đoạn 1, sinh viên sẽ được cung cấp m
 
 ### Tương tác API khác
 Liệt kê các API nhóm đã sử dụng được ở đây
-* [ ] Facebook API: mô tả (MSSV1)
+* [ ] Facebook API: mô tả (1312162)
 * [ ] Google API: mô tả (MSSV1)
 * [ ] ...
 
@@ -56,7 +56,7 @@ Liệt kê các API nhóm đã sử dụng được ở đây
 * [ ] Kiểm tra dữ liệu (MSSV1)
 * [ ] Animation (MSSV1)
 * [ ] Thao tác DOM (MSSV1)
-* [ ] AJAX (MSSV1)
+* [ ] AJAX (1312162)
 
 ## Bảo mật
 * [ ] Chứng thực (MSSV1)
