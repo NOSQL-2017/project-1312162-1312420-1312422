@@ -1,6 +1,8 @@
-from ruby
-run apt-get update -y
-run apt-get install -y build-essential patch ruby-dev zlib1g-dev liblzma-dev nodejs
-run gem install rails 
-run mkdir /webapp
-workdir /webapp
+FROM ruby:2.3.3
+RUN apt-get update -qq && apt-get install -y build-essential libpq-dev nodejs
+RUN mkdir /My_picture
+WORKDIR /My_picture
+ADD Gemfile /My_picture/Gemfile
+ADD Gemfile.lock /My_picture/Gemfile.lock
+RUN bundle install
+ADD . /My_picture
