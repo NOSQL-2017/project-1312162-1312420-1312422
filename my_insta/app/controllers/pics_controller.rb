@@ -16,11 +16,22 @@ class PicsController < ApplicationController
 		@pic = Pic.new(pic_params)
 
 		if @pic.save
-		 redirect @pic, notice: "Yess! It was posted!"
+		 redirect_to @pic, notice: "Yess! It was posted!"
 		else
 			render 'new'
 		end
 	end
+
+	def edit
+	end
+	def update
+		if @pic.update(pic_params)
+			redirect_to @pic, notice: "Congrate! Pic was updated!"
+		else
+			render 'edit'
+		end
+	end
+
 
 	private
 
