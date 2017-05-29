@@ -48,7 +48,7 @@ Sau khi thực hiện xong giai đoạn 1, sinh viên sẽ được cung cấp m
 
 ### Tương tác API khác
 Liệt kê các API nhóm đã sử dụng được ở đây
-* [ ] Facebook API: mô tả (1312162)
+* [x] Facebook API: mô tả (1312162)
 * [ ] Google API: mô tả (MSSV1)
 * [ ] ...
 
