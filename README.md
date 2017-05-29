@@ -1,9 +1,9 @@
-# Project - *Name of your app*
+# Project - *My_Instagramm*
 
 **Name of your app** là repository cho đồ án nhóm. Nhóm tối đa 4 thành viên.
 
 Thành viên:
-* [x] **132162** - Phạm Văn Hà - HaPham1107 - pvha1107@gmail.com - Tỉ lệ đóng góp cho đề tài
+* [x] **132162** - Phạm Văn Hà - HaPham1107 - pvha1107@gmail.com - 100%
 * [ ] **MSSV2** - Tên sinh viên 2 - tên tài khoản github - email - Tỉ lệ đóng góp cho đề tài
 * [ ] **MSSV3** - Tên sinh viên 3 - tên tài khoản github - email - Tỉ lệ đóng góp cho đề tài
 * [ ] **MSSV4** - Tên sinh viên 4 - tên tài khoản github - email - Tỉ lệ đóng góp cho đề tài
@@ -29,9 +29,9 @@ Sau khi thực hiện xong giai đoạn 1, sinh viên sẽ được cung cấp m
 ## Lập trình server
 ### MVC
 * [x] MVC (1312162)
-* [ ] Config (1312162)
-* [ ] REST routing (1312162)
-* [ ] Layout & partial (1312162)
+* [x] Config (1312162)
+* [x] REST routing (1312162)
+* [x] Layout & partial (1312162)
 
 ### Lập trình dữ liệu
 * [x] Thêm (1312162)
@@ -59,7 +59,7 @@ Liệt kê các API nhóm đã sử dụng được ở đây
 * [ ] AJAX (1312162)
 
 ## Bảo mật
-* [ ] Chứng thực (MSSV1)
+* [x] Chứng thực (MSSV1)
 * [ ] Phân quyền sử dụng một số trang web với nhiều vai trò khác nhau (MSSV1)
    * [ ] Không cho phép thao tác vào trang web khi không có quyền (MSSV1)
    * [ ] Thể hiện các chức năng khác nhau trên cùng giao diện khi người dùng có quyền khác nhau (MSSV1)
