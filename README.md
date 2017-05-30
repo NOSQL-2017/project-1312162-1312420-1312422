@@ -4,9 +4,6 @@
 
 Thành viên:
 * [x] **132162** - Phạm Văn Hà - HaPham1107 - pvha1107@gmail.com - 100%
-* [ ] **MSSV2** - Tên sinh viên 2 - tên tài khoản github - email - Tỉ lệ đóng góp cho đề tài
-* [ ] **MSSV3** - Tên sinh viên 3 - tên tài khoản github - email - Tỉ lệ đóng góp cho đề tài
-* [ ] **MSSV4** - Tên sinh viên 4 - tên tài khoản github - email - Tỉ lệ đóng góp cho đề tài
 
 URL: **URL hosting của bài tập**
 Báo cáo: **URL Github Page của đề tài**
@@ -48,7 +45,7 @@ Sau khi thực hiện xong giai đoạn 1, sinh viên sẽ được cung cấp m
 
 ### Tương tác API khác
 Liệt kê các API nhóm đã sử dụng được ở đây
-* [x] Facebook API: mô tả (1312162)
+* [ ] Facebook API: mô tả (1312162)
 * [ ] Google API: mô tả (MSSV1)
 * [ ] ...
 
@@ -59,7 +56,7 @@ Liệt kê các API nhóm đã sử dụng được ở đây
 * [ ] AJAX (1312162)
 
 ## Bảo mật
-* [x] Chứng thực (MSSV1)
+* [ ] Chứng thực (MSSV1)
 * [ ] Phân quyền sử dụng một số trang web với nhiều vai trò khác nhau (MSSV1)
    * [ ] Không cho phép thao tác vào trang web khi không có quyền (MSSV1)
    * [ ] Thể hiện các chức năng khác nhau trên cùng giao diện khi người dùng có quyền khác nhau (MSSV1)
