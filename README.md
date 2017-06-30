@@ -3,7 +3,7 @@
 **Name of your app** là repository cho đồ án nhóm. Nhóm tối đa 4 thành viên.
 
 Thành viên:
-* [x] **132162** - Phạm Văn Hà - HaPham1107 - pvha1107@gmail.com - 100%
+* [x] **1312162** - Phạm Văn Hà - HaPham1107 - pvha1107@gmail.com - 100%
 * [x] **1312420** Nguyễn Đình Phát 0%
 
 URL: **URL hosting của bài tập**
