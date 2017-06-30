@@ -27,7 +27,7 @@ Sau khi thực hiện xong giai đoạn 1, sinh viên sẽ được cung cấp m
 ### MVC
 * [x] MVC (1312162)
 * [x] Config (1312162)
-* [x] REST routing (1312162)
+* [ ] REST routing (1312162)
 * [x] Layout & partial (1312162)
 
 ### Lập trình dữ liệu
@@ -37,7 +37,7 @@ Sau khi thực hiện xong giai đoạn 1, sinh viên sẽ được cung cấp m
 * [ ] Tìm kiếm (1312162)
 
 ### Xử lý lỗi
-* [ ] Xử lý lỗi trong cùng trang web (MSSV1)
+* [ ] Xử lý lỗi trong cùng trang web (1312162)
 * [ ] Xử lý lỗi dùng trang web riêng (MSSV1)
    * [ ] 401 (MSSV1)
    * [ ] 404 (MSSV1)
@@ -56,9 +56,9 @@ Liệt kê các API nhóm đã sử dụng được ở đây
 * [ ] AJAX (1312162)
 
 ## Bảo mật
-* [ ] Chứng thực (MSSV1)
-* [ ] Phân quyền sử dụng một số trang web với nhiều vai trò khác nhau (MSSV1)
-   * [ ] Không cho phép thao tác vào trang web khi không có quyền (MSSV1)
+* [x] Chứng thực (1312162)
+* [x] Phân quyền sử dụng một số trang web với nhiều vai trò khác nhau (MSSV1)
+   * [x] Không cho phép thao tác vào trang web khi không có quyền (1312162)
    * [ ] Thể hiện các chức năng khác nhau trên cùng giao diện khi người dùng có quyền khác nhau (MSSV1)
    * [ ] Thể hiện lỗi khi không truy xuất được trang khi không có quyền (MSSV1)
 
@@ -85,7 +85,7 @@ Các **yêu cầu chức năng** (check và ghi MSSV vào các phần chức nă
 
 Link ảnh GIF demo ứng dụng:
 
-![Video Walkthrough](demo.gif)
+![Video Walkthrough](1312162_demo.gif)
 
 Tạo ảnh GIF với chương trình [LiceCap](http://www.cockos.com/licecap/).
 
