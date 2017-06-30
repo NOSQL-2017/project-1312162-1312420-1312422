@@ -4,6 +4,7 @@
 
 Thành viên:
 * [x] **132162** - Phạm Văn Hà - HaPham1107 - pvha1107@gmail.com - 100%
+* [x] **1312420** Nguyễn Đình Phát 0%
 
 URL: **URL hosting của bài tập**
 Báo cáo: **URL Github Page của đề tài**
